@@ -6,5 +6,5 @@ export const selectAuthState =
 
 export const selectIsSubmitting = createSelector(
   selectAuthState,
-  (state: AuthStateInterface) => state.isSubmitting
+  (authState: AuthStateInterface) => authState.isSubmitting
 );
