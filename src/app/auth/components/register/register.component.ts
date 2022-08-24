@@ -5,7 +5,7 @@ import { Observable } from 'rxjs';
 
 import { AppStateInterface } from 'src/app/shared/models/appState.interface';
 import { AuthService } from '../../services/auth.service';
-import { registerAction } from '../../state/actions';
+import { registerAction } from '../../state/actions/register.actions';
 import { selectIsSubmitting } from '../../state/selectors';
 
 @Component({
